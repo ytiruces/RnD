@@ -18,6 +18,16 @@ sudo apt-get install ruby-full
 sudo yum install ruby
 ```
 
+Пакетные менеджеры не лучшиый вариант. Через них трудно манипулировать версиями. Например у меня по умолчанию в Ubuntu 20.04 устанавливается ruby 2.7 и требуются дополнительные манипуляции, чтобы установить версиии >3.0
+
+### RVM (Ruby Version Manager)
+
+Удобный CLI инструмент для установки и управления несколькими версиями окружения
+
+https://rvm.io/ \
+https://rvm.io/rvm/basics
+
+
 ## Windows
 [RubyInstaller](https://rubyinstaller.org/downloads/) даст все необходимое для установки полного окружения Ruby. \
 Следует использовать `Ruby+Devkit` \
