@@ -20,4 +20,6 @@ ruby '.\Ruby\2. Hello world\hello_world.rb'
 
 ``` 
 ruby ./Ruby/2. Hello world/hello_world.rb
+cd RnD/
+ruby Ruby/2_hello_world/hello_world.rb
 ```
