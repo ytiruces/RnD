@@ -38,3 +38,5 @@ ruby '.\Ruby\2. Hello world\hello_world.rb'
 $ ./Ruby/2_hello_world/shebang_hello_world.rb
 Hello, world!
 ```
+
+[Подробнее](https://en.wikipedia.org/wiki/Shebang_(Unix))
