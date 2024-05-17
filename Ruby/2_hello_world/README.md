@@ -11,7 +11,8 @@ cd RnD/
 ```
 И запустить `hello_world.rb`
 ```
-ruby Ruby/2_hello_world/hello_world.rb
+$ ruby Ruby/2_hello_world/hello_world.rb
+Hello, world!
 ```
 
 ## CLI
@@ -27,3 +28,15 @@ puts "Hello, world!"
 ``` 
 ruby '.\Ruby\2. Hello world\hello_world.rb'
 ```
+
+# Shebang
+
+В файле `shebang_hello_world.rb` в первой строке указан интерпретатор.\
+Это позволяет не указывать интерпретатор перед именем файла.
+
+```
+$ ./Ruby/2_hello_world/shebang_hello_world.rb
+Hello, world!
+```
+
+[Подробнее](https://en.wikipedia.org/wiki/Shebang_(Unix))
