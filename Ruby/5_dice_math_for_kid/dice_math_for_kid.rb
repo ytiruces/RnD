@@ -8,7 +8,8 @@ dots = 1..6
 loop do
   puts "\nБросаем?"
   gets
-  cubes.times {puts rand(dots)}
+  cubes.times {print "  #{rand(dots)}"}
+  puts ""
 end
 # выводим вопрос "Сколько выпало?" 
 # проверяем ответ с суммой
